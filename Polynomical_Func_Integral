@@ -18,7 +18,8 @@ public class PDI {
 		 
 		 int cnt = setBase(expo, Calculator, Best); //규남아 니식을 Calculator 대신 넣으면 되.
 		 String plz = calcUp(expo, cnt, Best);  //적분 계산 //plz라는 스트링으로 부정적분식이 반환됨.
-		 double VALUE = value(expo,Best,Start,End); //규남아 대입할 값을 Value에 넣으면 되.//처음값 Start, 끝값 End로!		 System.out.println(VALUE); //적분한 식에 대입하고 반환된 값이 VALUE임
+		 double VALUE = value(expo,Best,Start,End); //규남아 대입할 값을 넣으면 되.//처음값 Start, 끝값 End로!		
+		 System.out.println(VALUE); //적분한 식에 대입하고 반환된 값이 VALUE임
 	}
 	
 	
