@@ -88,7 +88,8 @@ public class PFD {
 				  return b;
 			  }
 			  else if(Best[0] - 1 == 0) 
-			  {
+
+{
 				  System.out.println(RGaesu);
 				  String a = Double.toString(RGaesu);
 				  return a;
@@ -147,3 +148,4 @@ public class PFD {
 	}
 }
 //최고차항에 소수를 집어넣을꺼 같진 않아서 int형으로 처리했어.
+//expo 배열은 계수를 Best 배열은 최고차항을 나타냄
